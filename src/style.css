@@ -35,6 +35,13 @@ body {
 .main {
   padding: 57px 26px;
   color: #FFFFFF;
+  background-image: url("./images/reactjs-icon-large.svg");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--logo {
+  object-position: right center;
 }
 
 .main--title {
