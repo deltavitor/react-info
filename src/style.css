@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 26px;
+  align-items: center;
+  background-color: #21222A;
+}
+
+.navbar--icon {
+  margin-right: 7px;
+  height: 30px;
+}
+
+.navbar--logo {
+  margin: 0;
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22.25px;
+}
+
+.navbar--title {
+  margin: 0;
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 16px;
+}
