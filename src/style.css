@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #282D35;
 }
 
 .navbar {
@@ -29,4 +30,35 @@ body {
   color: #DEEBF8;
   font-weight: 600;
   font-size: 16px;
+}
+
+.main {
+  padding: 57px 26px;
+  color: #FFFFFF;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39.06px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.main--unordered_list {
+  margin: 0;
+  margin-top: 46px;
+}
+
+.main--list_item {
+  margin: 20px 0 20px 0;
+  line-height: 19px;
+  font-size: 16px;
+}
+
+.main--list_item:first-child {
+  margin: 0 0 20px 0;
+}
+
+.main--list_item:last-child {
+  margin: 20px 0 0 0;
 }
